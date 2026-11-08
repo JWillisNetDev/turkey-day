@@ -2,7 +2,7 @@
   <div class="grid min-h-dvh grid-cols-1 gap-8 lg:grid-cols-12">
     <div class="relative min-h-64 overflow-hidden lg:col-span-4">
       <img
-        src="@/assets/thanksgiving dinner table.jpg"
+        src="@/assets/images/thanksgiving dinner table.jpg"
         alt="A dinner table topped with traditional Thanksgiving fare"
         class="absolute insert-0 h-full w-full object-cover"
       />
