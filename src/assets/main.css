@@ -1,35 +1,26 @@
-@import './base.css';
+@import 'tailwindcss';
+@import '@fontsource/cinzel-decorative/400.css';
+@import '@fontsource/cinzel-decorative/700.css';
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+@font-face {
+  font-family: 'Golden Hopes';
+  src: url('@/assets/fonts/GoldenHopes-Regular.woff2') format('woff2');
   font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
-}
+@theme {
+  --color-plum: #462639ff;
+  --color-rust: #b7410eff;
+  --color-oxblood: #4a0404ff;
+  --color-emerald: #0d261cff;
+  --color-gold: #ffaa43ff;
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
+  --color-text: black;
+  --color-primary: var(--color-plum);
+  --color-secondary: var(--color-rust);
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+  --font-display: 'Golden Hopes', cursive;
+  --font-serif: 'Cinzel Decorative', serif;
 }
